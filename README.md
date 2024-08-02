@@ -16,6 +16,8 @@ https://www.youtube.com/watch?v=hMyCYif0Rr8
 ### Installations 
 
 Please make sure you have Flask installed. For reference, here is the documentation link: https://pypi.org/project/Flask/ 
+
+
 In order to run the site, here are some of the libraries you will need to install:
 
 `pip3 install cs50, flask_session`
@@ -40,6 +42,8 @@ This website was created with the Django framework as a way to let users create 
 ### Installations
 
 Please make sure you have Django installed. For reference, here is the documentation link: https://docs.djangoproject.com/en/5.0/topics/install/
+
+
 Please run the following to install any dependencies: 
 
 `pip3 install crispy_forms, crispy-bootstrap4`
