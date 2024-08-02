@@ -34,10 +34,10 @@ To run the website, enter the **/"Todolist Website"** directory and then run the
 ### About
 This website was created with the Django framework as a way to let users create and explore blog posts from each other. 
 
-<img align="left" width="380px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Blog%20Website/pictures/page1.png?raw=true">
-<img align="left" width="380px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Blog%20Website/pictures/page2.png?raw=true">
-<img align="left" width="380px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Blog%20Website/pictures/page3.png?raw=true">
-<img width="380px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Blog%20Website/pictures/page4.png?raw=true">
+<img align="left" padding="10px" width="380px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Blog%20Website/pictures/page1.png?raw=true">
+<img align="left" padding="10px" width="380px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Blog%20Website/pictures/page2.png?raw=true">
+<img align="left" padding="10px" width="380px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Blog%20Website/pictures/page3.png?raw=true">
+<img width="380px" padding="10px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Blog%20Website/pictures/page4.png?raw=true">
 
 ### Installations
 
