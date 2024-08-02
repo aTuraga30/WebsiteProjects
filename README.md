@@ -6,7 +6,7 @@ These projects are independent of each other, and both websites are coded in ind
 ### About
 This website was created to allow users to explore different todo list items that they want to try instead of creating new ones. 
 
-<img align="left" width="220px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Todolist%20Website/pictures/main.png?raw=true">
+<img width="300px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Todolist%20Website/pictures/main.png?raw=true">
 
 Here is also a link to a video demonstration of the website:
 
@@ -32,10 +32,10 @@ To run the website, enter the **/"Todolist Website"** directory and then run the
 ### About
 This website was created with the Django framework as a way to let users create and explore blog posts from each other. 
 
-<img align="left" width="220px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Blog%20Website/pictures/page1.png?raw=true">
-<img align="left" width="220px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Blog%20Website/pictures/page2.png?raw=true">
-<img align="left" width="220px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Blog%20Website/pictures/page3.png?raw=true">
-<img width="220px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Blog%20Website/pictures/page4.png?raw=true">
+<img align="left" width="300px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Blog%20Website/pictures/page1.png?raw=true">
+<img align="left" width="300px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Blog%20Website/pictures/page2.png?raw=true">
+<img align="left" width="300px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Blog%20Website/pictures/page3.png?raw=true">
+<img width="300px" src="https://github.com/aTuraga30/WebsiteProjects/blob/main/Blog%20Website/pictures/page4.png?raw=true">
 
 ### Installations
 
