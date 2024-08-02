@@ -1,0 +1,30 @@
+{% extends "index.html" %}
+
+{% block body %}
+
+        <h1 class = "ui center aligned header"> Todo Items </h1>
+
+        <table class="ui table">
+
+            <thead>
+                <tr>
+                    <th class="ten wide"> Todo Item </th>
+                    <th class="six wide"> Status </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for todo in todo %}
+                    <tr>
+                        <td> {{ todo.task }} </td>
+                        <td> {{ todo.status }} </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+
+            <a class = "ui blue button" href = "/home"> Add Task </a>
+
+        </table>
+
+
+{% endblock body %}

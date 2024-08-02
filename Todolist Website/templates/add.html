@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+
+{% block body %}
+
+    <form action = "/add", method = "POST" class = "ui form">
+        <div class = "field">
+            <label for = "title"> Todo Name </label>
+            <input type = "text" name = "task" placeholder = "Enter Todo">
+            <br>
+            <br>
+            <button class = "ui blue button" type = "submit"> Add </button>
+        </div>
+    </form>
+
+{% endblock body %}

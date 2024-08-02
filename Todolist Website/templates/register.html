@@ -1,0 +1,55 @@
+{% extends "index.html" %}
+
+{% block body %}
+
+    <h1 class = "center"> Register for an account! </h1>
+
+    <form action = "/register" method = "POST">
+        <div class="ui one column stackable center aligned page grid">
+            <div class="column twelve wide">
+                <div class = "ui inverted segment">
+                    <div class = "ui inverted form ui large form">
+                        <div class = "two fields">
+                            <div class = "field">
+                                <label> Username </label>
+                                <input placeholder = "Username" type = "text" name = "username" autocomplete = "off">
+                            </div>
+                            <br>
+                            <div class = "field">
+                                <label> Password </label>
+                                <input placeholder = "Password" type = "password" name = "password" autocomplete = "off">
+                            </div>
+                            <div class = "field">
+                                <label> Confirm Password </label>
+                                <input placeholder = "Password" type = "password" name = "confirmation" autocomplete = "off">
+                            </div>
+                        </div>
+                        <button type = "submit" class = "ui submit button"> Register </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+
+    <!-- <form action = "/register" method = "POST">
+    <div class = "form-group">
+            <label for = "exampleInputEmail1"> Username </label>
+            <input type = "text" class = "form-control" aria-describedby = "emailHelp" name = "username" autocomplete="off">
+        </div>
+
+        <div class = "form-group">
+            <label for = "exampleInputPassword1"> Password </label>
+            <input type = "password" class = "form-control" id = "exampleInputPassword1" name = "password" autocomplete="off">
+        </div>
+
+        <div class = "form-group">
+            <label> Confirm Password </label>
+            <input type = "password" class = "form-control" id = "exampleInputPassword1" name = "confirmation" autocomplete="off">
+        </div>
+
+        <button type = "submit" class = "btn btn-primary"> Register </button>
+    </form> -->
+
+{% endblock body %}

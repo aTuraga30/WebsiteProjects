@@ -1,0 +1,77 @@
+{% extends "index.html" %}
+
+{% block body %}
+
+    <!-- <div class = "ui compact menu">
+        <div class = "ui simple dropdown item">
+            View All Tasks
+            <i class = "dropdown icon"></i>
+            <div class = "menu">
+
+                {% for todo in todos %}
+
+                    <div class = "item"> {{ todo.task }} </div>
+
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+
+    <ul div = "ui list">
+
+        {% for todo in todos %}
+
+            <li> {{ todo.task }} </li>
+
+        {% endfor %}
+
+    </ul>
+
+    <br>
+    <br> -->
+
+    <form action="/update" method="post">
+
+        <div class = "center">
+            <div class = "ui compact menu">
+
+                <select name = "task" required>
+
+                    <option disabled selected value> Task </option>
+
+                    <i class = "dropdown icon"></i>
+
+                    {% for todo in todos %}
+                        <div class = "menu">
+                            <option value = "{{ todo.task }}"> {{ todo.task }} </option>
+                        </div>
+                    {% endfor %}
+
+                </select>
+
+            </div>
+        </div>
+
+        <br>
+
+        <div class = "center">
+            <button class = "ui blue button" type="submit"> Update </button>
+        </div>
+
+    </form>
+
+    <br>
+    <br>
+    <div class = "center">
+        <form class = "ui form" action = "/update", method = "POST">
+            <div class = "field">
+                <label for "title"> Or Revert a Task </label>
+                <br>
+                <a class = "ui gray button" href = "/revert"> Revert </a>
+            </div>
+        </form>
+    </div>
+
+
+{% endblock body %}

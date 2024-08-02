@@ -1,0 +1,143 @@
+#sorry
+{
+  color: red;
+}
+.class
+{
+  color: white;
+}
+.center
+{
+  text-align: center;
+}
+.underline
+{
+  text-decoration: underline;
+}
+.bold
+{
+  font-weight: bold;
+}
+.margin
+{
+  margin-right: 100px;
+}
+.black
+{
+  background-color: #1b1c1d;
+}
+.white
+{
+  background-color: white;
+}
+.image
+{
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperset.com%2Fcool-background-hd&psig=AOvVaw2c-zFm-xqYEPhD2xEoKhdi&ust=1603458853783000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCIku6jyOwCFQAAAAAdAAAAABAD');
+}
+.pad
+{
+  padding-top: 200px;
+  padding-right: 30px;
+  padding-bottom: 200px;
+  padding-left: 80px;
+}
+.expad
+{
+  padding-top: 200px;
+  padding-bottom: 300px;
+}
+.twhite
+{
+  color: white;
+  font-size: 65px;
+}
+.tgray
+{
+  color: gray;
+}
+.tblack
+{
+  color: black;
+}
+.divider
+{
+  width:5px;
+  height:auto;
+  display:inline-block;
+}
+.gray
+{
+  background-color: gray;
+}
+.break
+{
+  padding-top: 200px;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+.rblack
+{
+  background-color: #0A0908;
+}
+.ralmond
+{
+  background-color: #EAE0D5;
+}
+.rkha
+{
+  background-color: #C6AC8F;
+}
+.rgunmetal
+{
+  background-color: #22333B;
+}
+.talmond
+{
+  color: #EAE0D5;
+}
+.tgunmetal
+{
+  color: #22333B;
+}
+.tkha
+{
+  color: #C6AC8F;
+}
+.thuge
+{
+  font-size: 65px;
+}
+.tbig
+{
+  font-size: 45px;
+}
+.tmedium
+{
+  font-size: 25px;
+}
+.tsmall
+{
+  font-size: 15px;
+}
+.rumber
+{
+  background-color: #5E503F;
+}
+.tumber
+{
+  color: #5E503F;
+}
+.shrink
+{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.down
+{
+  padding-top: 50px;
+}
+.downmax
+{
+  padding-top: 250px;
+}

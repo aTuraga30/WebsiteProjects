@@ -1,0 +1,65 @@
+{% extends "index.html" %}
+
+{% block body %}
+
+    <!-- <div class = "ui compact menu">
+        <div class = "ui simple dropdown item">
+            View All Tasks
+            <i class = "dropdown icon"></i>
+            <div class = "menu">
+
+                {% for todo in todos %}
+
+                    <div class = "item"> {{ todo.task }} </div>
+
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <form class = "ui form" action = "/revert", method = "POST">
+        <div class = "field">
+            <label for = "title"> Task </label>
+            <input type = "text" name = "revert" placeholder = "Enter Task you want to revert">
+            <br>
+            <br>
+            <button class = "ui gray button" type = "submit"> Revert </button>
+        </div>
+    </form> -->
+
+    <form action = "/revert" method = "POST">
+
+        <div class = "center">
+            <div class = "ui compact menu">
+
+                <select name = "revert" required>
+
+                    <option disabled selected value> Task </option>
+
+                    <i class = "dropdown icon"></i>
+
+                    {% for todo in todos %}
+                        <div class = "menu">
+                            <option value = "{{ todo.task }}"> {{ todo.task }} </option>
+                        </div>
+                    {% endfor %}
+
+                </select>
+
+            </div>
+        </div>
+
+        <br>
+
+        <div class = "center">
+            <button class = "ui gray button" type="submit"> Revert </button>
+        </div>
+
+    </form>
+
+
+{% endblock body %}

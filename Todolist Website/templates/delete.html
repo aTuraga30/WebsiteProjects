@@ -1,0 +1,75 @@
+{% extends "index.html" %}
+
+{% block body %}
+
+    <!-- <div class = "ui compact menu">
+        <div class = "ui simple dropdown item">
+            View task to delete
+            <i class = "dropdown icon"></i>
+            <div class = "menu">
+
+                {% for todo in todos %}
+
+                    <div class = "item"> {{ todo.task }} </div>
+
+                {% endfor %}
+
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <ul div = "ui list">
+
+        {% for todo in todos %}
+
+            <li> {{ todo.task }} </li>
+
+        {% endfor %}
+
+    </ul>
+
+    <br>
+    <br>
+
+    <form class = "ui form" action = "/delete", method = "POST">
+        <div class = "field">
+            <label for = "title"> Task to Delete </label>
+            <input type = "text" name = "delete" placeholder = "Enter Task you want to delete">
+            <br>
+            <br>
+            <button class = "ui red button" type = "submit"> Delete </button>
+        </div>
+    </form> -->
+
+    <form action="/delete" method="post">
+
+        <div class = "center">
+            <div class = "ui compact menu">
+
+                <select name = "delete" required>
+
+                    <option disabled selected value> Task </option>
+
+                    <i class = "dropdown icon"></i>
+
+                    {% for todo in todos %}
+                        <div class = "menu">
+                            <option value = "{{ todo.task }}"> {{ todo.task }} </option>
+                        </div>
+                    {% endfor %}
+
+                </select>
+
+            </div>
+        </div>
+
+        <br>
+
+        <div class = "center">
+            <button class = "ui red button" type="submit"> Delete </button>
+        </div>
+
+    </form>
+
+
+{% endblock %}
